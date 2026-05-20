@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="A coin pond and bronze bell in a red temple courtyard">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2dfba"/>
+      <stop offset=".62" stop-color="#e6c391"/>
+      <stop offset="1" stop-color="#b43823"/>
+    </linearGradient>
+    <radialGradient id="water" cx="50%" cy="42%" r="68%">
+      <stop offset="0" stop-color="#8eb0a8"/>
+      <stop offset="1" stop-color="#253432"/>
+    </radialGradient>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M8 42c22-18 46 12 72-4M4 72c20-8 42 10 72-3" fill="none" stroke="#4c2d1f" stroke-opacity=".09" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <g opacity=".28" fill="none" stroke="#72634a" stroke-width="2">
+    <path d="M0 285c152-75 316-68 484 20 143 75 269 69 378-18 171-137 349-142 533-14 72 50 141 76 205 74"/>
+    <path d="M0 357c149-48 293-42 432 17 176 74 352 55 527-58 170-110 384-86 641 73"/>
+  </g>
+  <rect y="575" width="1600" height="325" fill="#b83d24"/>
+  <path d="M0 711c236-58 489-52 760 17 271 68 551 53 840-45v217H0z" fill="#7a211b" opacity=".35"/>
+  <g transform="translate(470 514)">
+    <ellipse cx="330" cy="189" rx="430" ry="117" fill="#251812" opacity=".35"/>
+    <ellipse cx="330" cy="151" rx="391" ry="104" fill="url(#water)"/>
+    <ellipse cx="330" cy="151" rx="391" ry="104" fill="none" stroke="#e7d2a1" stroke-width="14"/>
+    <g fill="none" stroke="#c8d5cd" stroke-opacity=".42" stroke-width="3">
+      <ellipse cx="198" cy="139" rx="67" ry="16"/>
+      <ellipse cx="466" cy="169" rx="98" ry="22"/>
+      <ellipse cx="327" cy="126" rx="140" ry="31"/>
+    </g>
+    <g transform="translate(330 28)">
+      <path d="M-70 98h140l-21 129H-49z" fill="#8b693f"/>
+      <path d="M-88 80H88l-30 36H-58z" fill="#332518"/>
+      <path d="M-54 28h108l22 57H-76z" fill="#c29443"/>
+      <path d="M-39 26c5-57 73-57 78 0" fill="none" stroke="#39291c" stroke-width="12"/>
+      <circle cx="0" cy="154" r="23" fill="#f1cf74"/>
+      <path d="M-112 155c70 22 154 22 224 0" fill="none" stroke="#f2d37a" stroke-width="8"/>
+    </g>
+    <g fill="#d59a31" stroke="#6d351f" stroke-width="3">
+      <circle cx="150" cy="170" r="13"/>
+      <circle cx="546" cy="145" r="12"/>
+      <circle cx="408" cy="204" r="10"/>
+      <circle cx="242" cy="106" r="11"/>
+    </g>
+  </g>
+  <g transform="translate(1210 110)">
+    <rect x="0" y="180" width="252" height="248" fill="#9f3324"/>
+    <rect x="32" y="216" width="188" height="163" fill="#efddb7"/>
+    <path d="M-34 180c43 26 94 27 153 4 57 24 113 23 167-4-40 58-93 84-160 77-67 7-120-19-160-77z" fill="#1b1715"/>
+    <rect x="25" y="428" width="205" height="26" fill="#251a16"/>
+  </g>
+  <g stroke="#1b1512" stroke-width="6" fill="none" opacity=".75">
+    <path d="M257 585c6-91 36-151 90-179"/>
+    <path d="M274 526c-52-35-105-45-160-30M292 488c46-45 100-66 164-64M313 445c-29-42-69-66-121-71"/>
+  </g>
+</svg>

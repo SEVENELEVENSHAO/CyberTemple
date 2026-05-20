@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="An old ritual book with blue ink clouds rising from its pages">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3dfba"/>
+      <stop offset="1" stop-color="#cfa76f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="42%">
+      <stop offset="0" stop-color="#f7d895" stop-opacity=".7"/>
+      <stop offset=".52" stop-color="#cc7b31" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#2a1711" stop-opacity=".72"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <pattern id="grain" width="110" height="110" patternUnits="userSpaceOnUse">
+      <path d="M4 31c25-18 50 17 78-8M19 80c31 12 45-22 86-4M8 105c25-9 38 11 62-5" fill="none" stroke="#7e5939" stroke-opacity=".12" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <rect width="1600" height="900" fill="url(#grain)" opacity=".72"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity=".22" stroke="#7a5b42" stroke-width="2" fill="none">
+    <path d="M0 694c176-47 310-42 472-8 142 30 276 23 412-25 234-82 452-41 716 38"/>
+    <path d="M0 742c250-45 438-24 610 11 180 36 360 10 525-35 164-45 316-35 465 17"/>
+  </g>
+  <g transform="translate(503 430)">
+    <path d="M-310 214c172-62 443-76 620 0v66c-197 64-433 58-620 0z" fill="#3a241c" opacity=".42"/>
+    <path d="M-290 188c160-54 420-54 580 0v72c-184-55-395-55-580 0z" fill="#6e281e"/>
+    <path d="M-276 180c155-48 397-48 552 0v62c-174-47-378-47-552 0z" fill="#edcf9c"/>
+    <path d="M0 137v116" stroke="#8f3322" stroke-width="3"/>
+    <path d="M-260 200c154-40 366-40 520 0" fill="none" stroke="#8b5f3e" stroke-width="3"/>
+    <path d="M-46 166c19-15 69-15 88 0v45c-29-13-59-13-88 0z" fill="#1e5c79" opacity=".82"/>
+    <path d="M-13 164c12 29 12 48 0 72" stroke="#f3dfba" stroke-opacity=".55"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#0b4769" stroke-width="7" opacity=".78">
+      <path d="M640 382c-34-67 32-132 96-96 31-78 150-59 157 27 83-5 116 97 44 140"/>
+      <path d="M806 250c-14-70 79-118 131-62 58-57 158 4 129 82 92 18 95 135 4 162"/>
+      <path d="M983 496c-44-54 11-131 81-97 19-87 146-92 175-9 77-20 138 71 88 137"/>
+      <path d="M637 548c-50-47-9-134 63-118 44-69 145-28 137 49 77 22 66 131-7 143"/>
+    </g>
+    <g stroke="#78a7b8" stroke-width="3" opacity=".82">
+      <path d="M700 353c38 5 59-21 40-45-20-24-63-11-67 22"/>
+      <path d="M858 347c54-12 48-72-2-71-34 1-55 38-31 65"/>
+      <path d="M929 233c31-8 53 11 42 33-12 24-53 18-54-8"/>
+      <path d="M1086 554c37 3 59-26 39-52-21-27-70-13-72 24"/>
+      <path d="M721 573c35 3 58-23 42-48-17-26-61-20-69 9"/>
+      <path d="M1182 434c45-18 75 20 53 54-23 35-82 20-83-22"/>
+    </g>
+  </g>
+  <path d="M794 143v604" stroke="#f8e8c2" stroke-width="6" stroke-opacity=".62"/>
+  <g transform="translate(797 167)" fill="#942b20">
+    <rect x="-31" y="0" width="62" height="92" opacity=".9"/>
+    <path d="M-20 22h40M-17 45h34M-12 68h24" stroke="#f4c994" stroke-width="5"/>
+  </g>
+</svg>

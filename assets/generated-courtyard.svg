@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="A quiet temple courtyard with incense burner and long shadows">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5e4c3"/>
+      <stop offset="1" stop-color="#d6c09c"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b766e"/>
+      <stop offset="1" stop-color="#283532"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="9"/></filter>
+    <pattern id="blocks" width="120" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 0h120v72H0zM0 36h120M60 0v36M30 36v36M90 36v36" fill="none" stroke="#816a51" stroke-opacity=".1" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect width="1600" height="900" fill="url(#blocks)"/>
+  <path d="M0 0h420l292 900H0z" fill="#2b2721" opacity=".35"/>
+  <path d="M625 0h300L520 900H220z" fill="#eef0dc" opacity=".52"/>
+  <rect y="626" width="1600" height="274" fill="url(#floor)"/>
+  <path d="M0 706c245-38 470-38 674 0 330 62 618 36 926-22v216H0z" fill="#1d2726" opacity=".45"/>
+  <g transform="translate(66 113)">
+    <rect x="0" y="0" width="430" height="494" fill="#8e2c22"/>
+    <rect x="40" y="0" width="50" height="494" fill="#4b201b" opacity=".6"/>
+    <rect x="157" y="0" width="50" height="494" fill="#4b201b" opacity=".55"/>
+    <rect x="282" y="0" width="50" height="494" fill="#4b201b" opacity=".55"/>
+    <rect x="40" y="56" width="266" height="235" fill="#211817"/>
+    <rect x="72" y="82" width="58" height="182" fill="#eee0c4"/>
+    <rect x="152" y="82" width="58" height="182" fill="#eee0c4"/>
+    <rect x="232" y="82" width="58" height="182" fill="#eee0c4"/>
+    <path d="M-28 0h515l-70-92H38z" fill="#1b1615"/>
+    <path d="M-68 2c72 54 147 54 224 0 104 51 209 51 313 0" fill="none" stroke="#191414" stroke-width="35"/>
+  </g>
+  <g transform="translate(1160 254)">
+    <rect x="33" y="146" width="178" height="98" fill="#2b332f"/>
+    <rect x="56" y="93" width="132" height="72" fill="#ded2b5"/>
+    <rect x="81" y="62" width="82" height="52" fill="#2c3835"/>
+    <path d="M8 94c73 27 154 27 228 0-30 51-79 74-114 74S38 145 8 94z" fill="#111514"/>
+    <path d="M37 53c54 24 116 24 169 0-20 34-55 50-84 50s-65-16-85-50z" fill="#eee4c8"/>
+    <circle cx="122" cy="31" r="24" fill="#151716"/>
+    <path d="M60 244c-39 47-33 91 16 132M184 244c39 47 33 91-16 132" fill="none" stroke="#eee2c8" stroke-width="28"/>
+  </g>
+  <g transform="translate(690 605)">
+    <ellipse cx="110" cy="160" rx="205" ry="31" fill="#1c1713" opacity=".35"/>
+    <path d="M42 42h136l-22 119H64z" fill="#6c3c2a"/>
+    <path d="M22 36h176l-36 34H58z" fill="#221817"/>
+    <path d="M38 20h144" stroke="#d5b577" stroke-width="10" stroke-linecap="round"/>
+    <g stroke="#34231a" stroke-width="5">
+      <path d="M75 69v84M110 69v92M145 69v84"/>
+    </g>
+    <g stroke="#b4c6c2" stroke-width="5" opacity=".45" filter="url(#blur)">
+      <path d="M76 9c-35-86 42-116 11-186"/>
+      <path d="M112 7c-45-112 51-137 21-239"/>
+      <path d="M151 8c-36-72 39-110 12-174"/>
+    </g>
+  </g>
+  <g stroke="#1e1a17" stroke-width="5" fill="none" opacity=".68">
+    <path d="M355 642c-5-75 8-125 39-151"/>
+    <path d="M361 604c-37-18-72-18-107 0M365 565c41-29 88-37 139-25"/>
+  </g>
+</svg>
